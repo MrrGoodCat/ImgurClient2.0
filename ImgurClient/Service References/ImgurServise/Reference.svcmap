@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="42426c11-9c92-4720-8cb5-b342a4ed71f2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8585/ImgurService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ImgurService.xsd" MetadataType="Schema" ID="90e4548c-67a5-4d0a-ab88-abe190da0daa" SourceId="1" SourceUrl="http://localhost:8585/ImgurService?xsd=xsd0" />
+    <MetadataFile FileName="ImgurService.disco" MetadataType="Disco" ID="7c206c0c-2fac-4e9a-b20c-27abbe548fd4" SourceId="1" SourceUrl="http://localhost:8585/ImgurService?disco" />
+    <MetadataFile FileName="ImgurService1.xsd" MetadataType="Schema" ID="f513aaae-619e-45a2-afd2-5ff35f45470d" SourceId="1" SourceUrl="http://localhost:8585/ImgurService?xsd=xsd1" />
+    <MetadataFile FileName="ImgurService2.xsd" MetadataType="Schema" ID="9edb56f3-23af-45f9-96fc-314f581765b5" SourceId="1" SourceUrl="http://localhost:8585/ImgurService?xsd=xsd2" />
+    <MetadataFile FileName="ImgurService.wsdl" MetadataType="Wsdl" ID="fe247b36-00d5-41b6-99de-fa907ac9be6a" SourceId="1" SourceUrl="http://localhost:8585/ImgurService?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

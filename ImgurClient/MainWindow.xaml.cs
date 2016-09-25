@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ImgurClient.ImgurServise;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,23 @@ namespace ImgurClient
     /// </summary>
     public partial class MainWindow : Window
     {
+        int imageIngex = 0;
+
         public MainWindow()
         {
             InitializeComponent();
+            IImgurService ImgService = new ImgurServiceClient();
+            WebBrowser.Navigate(ImgService.DoWork());
+        }
+
+        public void OpenImage(string path)
+        {
+            WebBrowser.Navigate(path);       
+        }
+
+        private void buttonNext_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
